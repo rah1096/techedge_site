@@ -55,6 +55,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    margin: 0;
+}
+
 a {
     color: #333;
     text-decoration: none;
@@ -160,6 +164,10 @@ article .meta {
     color: #fff;
 }
 
+.meta span {
+    float: right;
+}
+
 article .readmore {
     background: #f4f4f4;
     color: #000000;
@@ -180,7 +188,6 @@ article .readmore:hover {
 #sidebar {
     float: right;
     width: 30%;
-    border: 1px solid red;
 }
 
 .search {
@@ -205,6 +212,64 @@ article .readmore:hover {
 
 #sub-nav {
     padding: 20px 0 20px 0;
+
+}
+
+#sub-nav li {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0 5px 0;
+    border-bottom: 1px dotted #333;
+    list-style: none;
+}
+
+#sub-nav a {
+    color: #333;
+}
+
+#sub-nav a:hover, #sub-nav a.active {
+    color: #ff0000;
+}
+
+.ad img{
+    width: 100%;
+}
+
+#main-footer {
+    background: #333;
+    color: #fff;
+    min-height: 180px;
+    margin-top: 20px;
+    overflow: auto;
+}
+
+#main-footer a {
+    color: #fff;
+}
+
+#main-footer .copy {
+    padding: 20px 0 0 0;
+}
+
+#main-footer .footer-left {
+    float: left;
+    width: 30%;
+}
+
+#main-footer .footer-right {
+    float: right;
+    width: 70%;
+}
+
+#main-footer .footer-nav {
+    float: left;
+    font-size: 15px;
+    width: 31%;
+}
+
+#main-footer .footer-nav li {
+    padding: 5px 0 5px 0;
+    border-bottom: dotted #666 1px;
 }
 
 
@@ -223,7 +288,6 @@ article .readmore:hover {
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
        (min-resolution: 120dpi) {
-
 }
 
 /* ==========================================================================
