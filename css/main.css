@@ -4,6 +4,7 @@ html {
     color: #222;
     font-size: 13px;
     line-height: 1.4;
+    font-family: arial;
 }
 
 ::-moz-selection {
@@ -272,9 +273,88 @@ article .readmore:hover {
     border-bottom: dotted #666 1px;
 }
 
+#comments {
+    margin-top: 20px;
+}
 
+.comment-left {
+    float: left;
+    width: 8%;
+}
 
+.comment-left img {
+    width: 100%;
+}
 
+.comment-right {
+    float: right;
+    width: 90%;
+}
+
+.comment-form {
+    margin-top: 20px;
+    padding: 5px 20px 10px 20px;
+    background: #333;
+    color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.comment-form input[type="text"],
+.comment-form input[type="email"] {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.comment-form textarea {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form input[type="text"] {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form select {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px;
+    width: 98%;
+}
+
+.add-form textarea {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form button {
+    border-radius: 5px;
+    background-color: #ccc;
+}
 
 /* ==========================================================================
    Media Queries
